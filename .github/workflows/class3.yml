@@ -41,4 +41,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./build secondclass0410.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build class30411.surge.sh --token ${{secrets.SURGE_TOKEN}}
